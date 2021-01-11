@@ -1,39 +1,45 @@
 <template>
-<el-row>
-    <el-col>
+<div class="block">
+  <el-timeline>
+    <el-timeline-item :timestamp="date1" placement="top" size="large" color="#3e7272">
         <el-card shadow="hover">
             <span style="font-size:10px;color:#606266;">{{date1}}</span>
             <br><br>
             <span style="color:#303133">{{message1}}</span>
         </el-card>
+    </el-timeline-item>
+    <el-timeline-item timestamp="2018/4/3" placement="top" color="#3e7272">
         <el-card shadow="hover">
             <span style="font-size:10px;color:#606266;">{{date2}}</span>
             <br><br>
             <span style="color:#303133">{{message2}}</span>
         </el-card>
+    </el-timeline-item>
+    <el-timeline-item timestamp="2018/4/2" placement="top" color="#3e7272">
         <el-card shadow="hover">
             <span style="font-size:10px;color:#606266;">{{date3}}</span>
             <br><br>
             <span style="color:#303133">{{message3}}</span>
         </el-card>
+    </el-timeline-item>
+    <el-timeline-item timestamp="2018/4/2" placement="top" color="#3e7272">
         <el-card shadow="hover">
             <span style="font-size:10px;color:#606266;">{{date4}}</span>
             <br><br>
             <span style="color:#303133">{{message4}}</span>
         </el-card>
-    </el-col>
-    
-</el-row>
+    </el-timeline-item>
+  </el-timeline>
+</div>
+
 </template>
 <style scoped>
-.el-card{
-    text-align: left;
-    margin:3%;
-
+.block {
+    padding-left: 100px;
+    padding-top:50px;
 }
-.span {
-    line-height: 20px;
-    margin:5px;
+.el-card {
+    width:1000px;
 }
 </style>
 

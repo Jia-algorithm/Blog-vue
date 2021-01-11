@@ -23,7 +23,7 @@
                           <i class="el-icon-collection"></i>
                           <span slot="title">碎碎念</span>
                       </el-menu-item>
-                      <el-menu-item index="/tips">
+                      <el-menu-item index="/message">
                           <i class="el-icon-notebook-1"></i>
                           <span slot="title">留言板</span>
                       </el-menu-item>

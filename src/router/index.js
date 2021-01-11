@@ -5,6 +5,7 @@ import HelloWorld from '@/page/HelloWorld'
 import account from '@/page/account'
 import tips from '@/page/tips'
 import constellation from '@/page/constellation'
+import message from '@/page/message'
 Vue.use(Router)
 
 export default new Router({
@@ -28,6 +29,11 @@ export default new Router({
         path:'/tips',
         name:'tips',
         component:tips
+      },
+      {
+        path:'/message',
+        name:'message',
+        component:message
       },
       {
         path:'/constellation',
